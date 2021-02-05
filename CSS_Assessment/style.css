@@ -1,0 +1,38 @@
+div{
+    font-size: 30px;
+    text-align: center;
+}
+
+.topnav {
+    background-color:#818081;
+    margin-top: 0px;
+    width: 100%;
+    top: 0;
+}
+
+.leftbox {
+    background-color: #0300FD;
+    margin-top: 55px;
+    float: left;
+    padding: 400px;
+    width: 50%;
+    height: 850px;
+    box-sizing: border-box;
+}
+
+.rightbox {
+    background-color: #fe0001;
+    margin-top: 55px;
+    float: right;
+    padding: 400px 0 ;
+    width: 25%;
+    height: 850px;
+    box-sizing: border-box;
+}
+
+.footer{
+    background-color: #028002;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
