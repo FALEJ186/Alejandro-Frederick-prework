@@ -1,0 +1,21 @@
+body{
+  text-transform: uppercase;
+  background-color: darkgray;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+section{
+  padding: 10%;
+}
+.bg-gray{
+  background-color: darkgray;
+  font-size: 20px;
+  color: white;
+}
+
+.btn-white {
+     background-color: darkgray;
+     border-color:white
+}
