@@ -1,0 +1,110 @@
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    background-color: #4aaaa5;
+    background-size: contain;
+    background-repeat: repeat-x repeat-y;
+    background-image: url(../images/moroccan-flower-dark.png);
+    padding:30px 15% 20% 15%;
+    box-sizing: border-box;
+    height:100%;
+    width:100%;
+}
+
+.headerbox{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #4aaaa5;
+    border: 2px;
+    border-color: #cccccc;
+    border-style: solid;
+    width:relative;
+    margin-left: 15%;
+    padding:1%;
+}
+.imagebox{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #4aaaa5;
+    width: 150px;
+    padding:1%;
+    text-align: center;
+}
+
+.navbar-nav{
+    margin-right: 15%;
+    border-color: #dddddd;
+    border: 5px;
+    box-sizing:border-box; 
+}
+
+.container-fluid{
+    border-top:#dddddd;
+    background-color: white;
+    padding:2.5%;
+
+}
+
+.footer{
+    background-color:#666666;
+    position: absolute;
+    left:0; 
+    bottom:auto;
+    text-align: center;
+    padding-top: 25px;
+    width:100%;
+    height: auto;
+    border-top-style:solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 5px;
+    margin-top: 0%;
+    padding-bottom: 2px;
+}
+
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-top: 4px solid #cccccc;
+    width: 100%
+}
+
+img{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#parent{
+    display:flex
+}
+
+#txt{
+    flex:2
+}
+
+.msgbox{
+    padding: 2px;
+    width: 150%;
+    resize: none;
+}
+
+.nav-link{
+    color: #777777
+}
+
+.bottom-center{
+    position: absolute;
+    bottom: 2px;
+}
+
+.container{
+    position: relative;
+}
+
+@media (max-width: 575.98px){
+
+    main{
+        padding:0;
+
+    }
+
+}
