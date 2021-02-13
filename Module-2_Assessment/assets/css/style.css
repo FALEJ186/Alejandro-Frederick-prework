@@ -1,0 +1,16 @@
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0a0a0a;
+    background-image: url(../images/background.jpg);
+    background-color: #ffffff;
+    background-size: stretch;
+    padding:30px 15% 20% 15%;
+    box-sizing: border-box;
+    height:100%;
+    width:100%;
+}
+
+html{
+    background-image: url(../images/background.jpg);
+    background-size: stretch;
+}

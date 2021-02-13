@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='assets/css/style.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>Hangman Game</title>
+</head>
+<main>
+    <h1 style="font-size: 80px; font-family: 'Times New Roman', Times, serif; font-weight: 700; text-align: center;">
+        HANGMAN ANUALLY</h1>
+    <div class='container-fluid'>
+        <div class="row justify-content-center" style="padding:15px">
+            <div class="col-lg-5">
+                <img id='fall' src='../Module-2_Assessment/assets/images/fall.jpg' alt='fall'>
+                <img id='spring' src='../Module-2_Assessment/assets/images/spring.jpg' alt='spring'>
+                <img id='summer' src='../Module-2_Assessment/assets/images/summer.jpg' alt='summer'>
+                <img id='winter' src='../Module-2_Assessment/assets/images/winter.jpg' alt='winter'>
+                <img id='monsoon' src='../Module-2_Assessment/assets/images/monsoon.jpg' alt='monsoon'>
+                <img id='seasons' src='../Module-2_Assessment/assets/images/seasons.jpg' alt='seasons'>
+                <img id='midsommar' src='../Module-2_Assessment/assets/images/midsommar.jpg' alt='midsommar'>
+                <img id='dry' src='../Module-2_Assessment/assets/images/dry.jpg' alt='dry'>
+            </div>
+            <div class="col-lg-5" style="text-align: center; font-size: 25px;">
+                <h1>Press any key to get started!</h1>
+                <p>Correct Guesses</p>
+                <div class='wordguess'></div>
+                <p>Wrong Guesses</p>
+                <div class='wrongguess'></div>
+                <p>Wrong Guesses Left</p>
+                <div class='guesses'></div>
+            </div>
+        </div>
+    </div>
+    <script src='assets/javascript/game.js'></script>
+</main>
+</html>
